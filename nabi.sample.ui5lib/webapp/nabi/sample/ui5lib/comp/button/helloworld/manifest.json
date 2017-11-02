@@ -1,0 +1,59 @@
+{
+	"_version": "1.7.0",
+	"sap.app": {
+		"id": "nabi.sample.ui5lib.comp.button.helloworld",
+		"type": "component",
+		"i18n": "../../../messagebundle.properties",
+		"embeddedBy" : "../../",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"resources" : "resources.json",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
+	},
+
+	"sap.ui5": {
+		"componentName" : "nabi.sample.ui5lib.comp.button.helloworld",
+		"dependencies": {
+			"minUI5Version": "1.48.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {}
+			},
+			"components" : {}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"handleValidation" : true,
+		"models": { },
+		"resources": {
+			"css": [],
+			"js" : []
+		}
+	}
+	
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library xmlns="http://www.sap.com/sap.ui.library.xsd">
+
+	<name>nabi.sample.ui5lib</name>
+	<version>${version}</version>
+
+	<documentation>Nabi Sample UI5 Library: nabi.sample.ui5lib</documentation>
+
+	<dependencies>
+		<dependency>
+			<libraryName>sap.ui.core</libraryName>
+		</dependency>
+		<dependency>
+			<libraryName>sap.m</libraryName>
+		</dependency>
+		<dependency>
+			<libraryName>sap.ui.unified</libraryName>
+		</dependency>
+	</dependencies>
+
+	<appData>
+		<!-- excludes for the JSDoc -->
+		<jsdoc xmlns="http://www.sap.com/ui5/buildext/jsdoc">
+			<exclude name="nabi.sample.ui5lib.js."/>
+		</jsdoc>
+		<!-- excludes for the JSCoverage -->
+		<jscoverage xmlns="http://www.sap.com/ui5/buildext/jscoverage">
+			<exclude name="nabi.sample.ui5lib.js."/>
+		</jscoverage>
+	</appData>
+
+</library>

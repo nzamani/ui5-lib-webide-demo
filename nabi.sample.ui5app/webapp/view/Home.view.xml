@@ -1,0 +1,26 @@
+<mvc:View
+	controllerName="nabi.sample.ui5app.controller.Home"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:nabi="nabi.sample.ui5lib"
+	height="100%">
+	<Page 
+		title="Nabi Sample UI5 App - uses nabi.sample.ui5lib"
+		class="sapUiResponsiveContentPadding">
+		<content>
+			<VBox>
+				
+				<!-- use a control from the library nabi.sample.ui5lib -->
+				<nabi:ProductRating change="onRatingChange"/>
+				
+				<!-- consume/re-use the helloworld component from the library nabi.sample.ui5lib -->
+				<core:ComponentContainer
+					name="nabi.sample.ui5lib.comp.button.helloworld"
+					async="true" />
+					
+			</VBox>
+		</content>
+	</Page>
+</mvc:View>
