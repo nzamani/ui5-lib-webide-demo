@@ -4,7 +4,7 @@
 		"id": "nabi.sample.ui5lib.comp.button.helloworld",
 		"type": "component",
 		"i18n": "../../../messagebundle.properties",
-		"embeddedBy" : "../../",
+		"embeddedBy" : "../../../",
 		"title": "{{appTitle}}",
 		"description": "{{appDescription}}",
 		"resources" : "resources.json",
@@ -55,5 +55,5 @@
 			"js" : []
 		}
 	}
-	
+
 }

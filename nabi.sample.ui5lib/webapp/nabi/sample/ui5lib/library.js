@@ -28,7 +28,9 @@ sap.ui.define([
 		dependencies : ["sap.ui.core", "sap.m" , "sap.ui.unified"],
 		types: [],
 		interfaces: [],
-		controls: [],
+		controls: [
+			"nabi.sample.ui5lib.ProductRating"
+		],
 		elements: [],
 		noLibraryCSS: false,
 		version: "0.1.0"

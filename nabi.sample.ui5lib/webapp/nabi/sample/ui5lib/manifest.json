@@ -3,7 +3,9 @@
 	"sap.app": {
 		"id": "nabi.sample.ui5lib",
 		"type": "library",
-		"embeds":[],
+		"embeds":[
+			"comp/button/helloworld"
+		],
 		"applicationVersion":{
 			"version":"0.1.0"
 		 },
