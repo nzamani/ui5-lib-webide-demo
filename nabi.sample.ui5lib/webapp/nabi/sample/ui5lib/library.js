@@ -32,7 +32,7 @@ sap.ui.define([
 			"nabi.sample.ui5lib.ProductRating"
 		],
 		elements: [],
-		noLibraryCSS: false,
+		noLibraryCSS: true,
 		version: "0.1.0"
 	});
 
