@@ -29,7 +29,7 @@ Yes, there is also an App Index in ABAP. In fact, you only need to replace the h
 - https://abap.mycompany.com/sap/bc/ui2/app_index/ui5_app_info?id=nabi.sample.ui5app
 - https://abap.mycompany.com/sap/bc/ui2/app_index/ui5_app_info_json?id=nabi.sample.ui5app
 
-As you can see, that works because paths (i.e. /sap/bc/ui2/app_index/ui5_app_info_json?id=nabi.sample.ui5app) are the same on both ABAP and SAPCP.
+As you can see, that works because paths (i.e. /sap/bc/ui2/app_index/ui5_app_info_json) are the same on both ABAP and SAPCP.
 
 # Local Build
 
