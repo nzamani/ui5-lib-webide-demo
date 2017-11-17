@@ -23,8 +23,8 @@
 		"path": "/resources/nabi/sample/ui5lib",
 		"target": {
 			"type": "application",
-			"name": "nabisampleui5lib", 
-			"entryPath": "/nabi/sample/ui5lib/"
+			"name": "nabisampleui5lib",
+			"entryPath": "/"
 		},
 		"description": "Nabi Sample UI5 Library"
 	}
