@@ -10,14 +10,14 @@ This is just a demo project to illustrate how smoothly you can implement a ui5 l
 
 1. After deployment to SAPCP check the App Index for each of the deployed projects, i.e.:
     - nabi.sample.ui5lib
-	    - https://flpnwc-ac5318705.dispatcher.hana.ondemand.com/sap/bc/ui2/app_index/ui5_app_info?id=nabi.sample.ui5lib
-		- https://flpportal-p501141trial.dispatcher.hanatrial.ondemand.com/sap/bc/ui2/app_index/ui5_app_info?id=nabi.sample.ui5lib
-		- https://flpnwc-ac5318705.dispatcher.hana.ondemand.com/sap/bc/ui2/app_index/ui5_app_info_json?id=nabi.sample.ui5lib
+	    - https://flpnwc-p123456trial.dispatcher.hana.ondemand.com/sap/bc/ui2/app_index/ui5_app_info?id=nabi.sample.ui5lib
+		- https://flpportal-p123456trial.dispatcher.hanatrial.ondemand.com/sap/bc/ui2/app_index/ui5_app_info?id=nabi.sample.ui5lib
+		- https://flpnwc-p123456trial.dispatcher.hana.ondemand.com/sap/bc/ui2/app_index/ui5_app_info_json?id=nabi.sample.ui5lib
 
 	- nabi.sample.ui5app
-	    - https://flpnwc-ac5318705.dispatcher.hana.ondemand.com/sap/bc/ui2/app_index/ui5_app_info?id=nabi.sample.ui5app
-		- https://flpportal-p501141trial.dispatcher.hanatrial.ondemand.com/sap/bc/ui2/app_index/ui5_app_info?id=nabi.sample.ui5app
-		- https://flpnwc-ac5318705.dispatcher.hana.ondemand.com/sap/bc/ui2/app_index/ui5_app_info_json?id=nabi.sample.ui5app
+	    - https://flpnwc-p123456trial.dispatcher.hana.ondemand.com/sap/bc/ui2/app_index/ui5_app_info?id=nabi.sample.ui5app
+		- https://flpportal-p123456trialtrial.dispatcher.hanatrial.ondemand.com/sap/bc/ui2/app_index/ui5_app_info?id=nabi.sample.ui5app
+		- https://flpnwc-p123456trial.dispatcher.hana.ondemand.com/sap/bc/ui2/app_index/ui5_app_info_json?id=nabi.sample.ui5app
 
 	
 	**FYI**: The `id` parameter is the corresponding SAPUI5 Component ID, i.e. try `sap.m` to see how a correct result should look like and compare it with the result of your own component.
